@@ -38,8 +38,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       const mockUser: User = {
         id: '1',
         email,
-        firstName: 'John',
-        lastName: 'Doe',
+        firstName: 'Selin',
+        lastName: 'Türkdoğan',
         avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=32&h=32&fit=crop&crop=face'
       };
       
