@@ -168,7 +168,7 @@ export default function RegisterPage() {
               <Checkbox
                 id="terms"
                 checked={acceptTerms}
-                onCheckedChange={setAcceptTerms}
+                onCheckedChange={(checked) => setAcceptTerms(checked === true)}
                 disabled={isLoading}
               />
               <Label htmlFor="terms" className="text-sm">
